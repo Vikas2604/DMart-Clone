@@ -1,0 +1,159 @@
+html{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 78px;
+  box-shadow: 0 3px 5px rgb(19, 19, 19, .45);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/* DMart Logo */
+
+.dmart-logo {
+  height: 240px;
+  width: 270px;
+  margin: 0 16px 0 0;
+  padding: 16px 0;
+}
+
+.header-middle {
+  display: flex;
+  height: 100%;
+}
+
+.about-us {
+  width: 132px;
+}
+
+.categories {
+  width: 148px;
+}
+
+.social-outreach {
+  width: 192px;
+}
+
+.partner-with-us {
+  width: 187px;
+}
+
+.careers {
+  width: 124px;
+}
+
+.feedback {
+  width: 126px;
+}
+
+.header-middle>a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  margin: 0 4px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all .15s;
+  letter-spacing: .5px;
+}
+
+.header-middle>a:hover {
+  color: #034C27;
+  background-color: #C8E6C9;
+}
+
+/* Facebook & Linkedin Icon */
+
+.facebook-icon,
+.linkedin-icon {
+  width: 27px;
+  height: 27px;
+  margin: 0px 5px;
+}
+
+/* Container-1,2 */
+.container-1,
+.container-2{
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.heading{
+  text-align: center;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-bottom: 2px #046d38 solid;
+  padding-bottom: 2px;
+  margin-left: 30.5%;
+  margin-right: 30.5%;
+}
+
+.contentp{
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+img{
+  width: 100%;
+}
+
+/* Container-2 */
+.heading-1{
+  text-align: center;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-bottom: 2px #046d38 solid;
+  padding-bottom: 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.cont{
+  display: flexbox;
+   
+}
+
+.cont1{
+  background-color: aquamarine;
+  height: 50px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  padding-top: 15px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #C8E6C9;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+svg{
+  height: 10px;
+}
+

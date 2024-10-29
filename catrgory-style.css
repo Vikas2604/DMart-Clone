@@ -1,0 +1,186 @@
+html{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 78px;
+  box-shadow: 0 3px 5px rgb(19, 19, 19, .45);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/* DMart Logo */
+
+.dmart-logo {
+  height: 240px;
+  width: 270px;
+  margin: 0 16px 0 0;
+  padding: 16px 0;
+}
+
+.header-middle {
+  display: flex;
+  height: 100%;
+}
+
+.about-us {
+  width: 132px;
+}
+
+.categories {
+  width: 148px;
+}
+
+.social-outreach {
+  width: 192px;
+}
+
+.partner-with-us {
+  width: 187px;
+}
+
+.careers {
+  width: 124px;
+}
+
+.feedback {
+  width: 126px;
+}
+
+.header-middle>a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  margin: 0 4px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all .15s;
+  letter-spacing: .5px;
+}
+
+.header-middle>a:hover {
+  color: #034C27;
+  background-color: #C8E6C9;
+}
+
+/* Facebook & Linkedin Icon */
+
+.facebook-icon,
+.linkedin-icon {
+  width: 27px;
+  height: 27px;
+  margin: 0px 5px;
+}
+
+/* Container-1 */
+
+.container-1{
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 7%;
+}
+
+/* Store Categories */
+.storeCategories-1,
+.storeCategories-2,
+.storeCategories-3,
+.storeCategories-4{
+  display: flex;
+  justify-content: space-around;
+}
+
+.storeCategories-2,
+.storeCategories-3,
+.storeCategories-4{
+  margin-top: -7.5vh;
+}
+
+.store-cat-head,
+.storeCat{
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  /* margin-top: 7vh; */
+}
+
+.store-cat-head{
+  font-size: 19px;
+  text-transform: uppercase;
+  border-bottom: 2px #046d38 solid;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+/* storeCategories-1,2,3,4 */
+
+.stc-img{
+  height: 293px;
+  width: 291px;
+  border-radius: 8px;
+}
+
+.stc-1-text{
+  color: #fff;
+  width: 291px;
+  height: 37px;
+  opacity: 0.8;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #374553;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  top: -8.2vh;
+  padding-top: 1.5vh;
+}
+
+/* Container-5 */
+
+.main-foot{
+  width: 100%;
+  background-color: #384552;
+  position: absolute;
+  /* margin-top: 0; */
+}
+
+.footertext{
+  background-color: #384552;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;  
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.footercontent{
+  color: white;
+  text-decoration: none;
+}
+
+

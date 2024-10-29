@@ -1,0 +1,13 @@
+.header-middle{
+  color: green;
+}
+
+.header-middle>a:hover {
+  color: green;
+}
+
+/*code to change background color*/
+.header-middle>.active>a{
+  background-color: #c33636;
+  color: green;
+}
